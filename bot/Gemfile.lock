@@ -3,8 +3,6 @@ GEM
   specs:
     ermahgerd (0.0.1)
     eventmachine (1.0.7)
-    faker (1.4.3)
-      i18n (~> 0.5)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     faye-websocket (0.10.0)
@@ -37,9 +35,6 @@ GEM
     lita-excuses (0.0.6)
       lita (>= 2.2)
       nokogiri
-    lita-faker (0.1.0)
-      faker (~> 1.4)
-      lita (~> 4.4)
     lita-google-images (2.0.0)
       lita (>= 4.0)
     lita-karma (3.0.2)
@@ -78,10 +73,10 @@ DEPENDENCIES
   lita-ermahgerd
   lita-eval (~> 0.1.0)
   lita-excuses
-  lita-faker (~> 0.1.0)
   lita-google-images
   lita-karma
   lita-slack
+  redis
 
 BUNDLED WITH
    1.10.3
