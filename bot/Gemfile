@@ -11,7 +11,7 @@ gem "lita-catfacts"
 gem "lita-ermahgerd"
 gem "lita-excuses"
 gem 'lita-eval', '~> 0.1.0'
-gem 'lita-faker', '~> 0.1.0'
+# gem 'lita-faker', '~> 0.1.0'
 gem "lita-karma"
 # Uncomment to use the IRC adapter
 # gem "lita-irc"

@@ -1,7 +1,9 @@
+require './lita-jonathan'
+
 Lita.configure do |config|
   # The name your robot will use.
-  config.redis[:url] = ENV["REDISTOGO_URL"]
-  config.http.port = ENV["PORT"]
+  # config.redis[:url] = ENV["REDISTOGO_URL"]
+  # config.http.port = ENV["PORT"]
   config.robot.name = "Lita"
   config.robot.log_level = :info
   # config.handlers.wolfram_alpha.app_id = "RHKU9R-7Y8GJRJ9R8"
