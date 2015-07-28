@@ -1,5 +1,5 @@
 require './lita-jonathan'
-
+require './lita-facts'
 Lita.configure do |config|
   config.redis[:url] = ENV["REDISTOGO_URL"]
   config.http.port = ENV["PORT"]
