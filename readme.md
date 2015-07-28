@@ -1,0 +1,1 @@
+App Academy Chatbot is a short personal project I undertook to learn about Lita (https://www.lita.io/), a chatbot written in Ruby. This bot is also daemonized on a Heroku server, and listens to our internal Slack.
